@@ -1,6 +1,5 @@
 # Real-time Image Dilation Visualiser
 
-Simple overview of use/purpose.
 
 ### Dependencies
 
