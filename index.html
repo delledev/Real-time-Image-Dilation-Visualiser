@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Real Time Image Dilation Visualiser</title>
+    <script src="./dependencies/p5.js"></script>
+    <script src="./src/OffsetPoint.js"></script>
+    <script src="./src/grid.js"></script>
+    <script src="./src/main.js"></script>
+
+    <style>
+      html{
+        background-color: gray;
+        color: white;
+      }
+      .titleContainer{
+        margin: 0 auto;
+        display: flex;
+        width: 275px;
+        height: 50px;
+        background: black;
+        justify-content: space-between;
+      }
+      .title{
+        margin: 0 auto;
+        text-align: center;
+        
+      }
+      #structure{
+        text-align: left;
+      }
+      #canvasContainer{
+        justify-content: center;
+        display: flex;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="titleContainer">
+      <div class="title"><p>Image</p></div>
+      <div class="title"><p>Structure</p></div>
+    </div>
+    <div id="canvasContainer"></div>
+    <div class="titleContainer">
+      <div class="title"><p>Result</p></div>
+    </div>
+  </body>
+</html>
